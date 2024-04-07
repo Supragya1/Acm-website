@@ -16,7 +16,7 @@
     background-color: #fff;
     width: 30vh;
     filter: drop-shadow(0 0 0.75rem #000);
-    border-radius: 10px; /* Added border radius */
+    border-radius: 10px; 
 }
 .card img {
     width: 100%;
@@ -24,9 +24,20 @@
     padding: 20px;
 }
 .name{
-    fontSize: "18px",
-    fontWeight: "200",
-    letterSpacing: "2px",
-    width: "100%",
-    margin: "0px",
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    width: 100%;
+    margin: 0;
+}
+.position{
+    font-size: 1px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    width: 100%;
+    margin: 0;
+}
+.line{
+    width: 30%;
+    border-top: 3px solid black;
 }

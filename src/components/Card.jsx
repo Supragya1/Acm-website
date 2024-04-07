@@ -1,12 +1,12 @@
-import React from "react";
+import {useState} from "react";
 import './Card.css'
-const Card = ({ name1, position, image, linkedin, github,instagram,variable}) => {
+const Card = ({ name, position, image,variable, linkedin, github,instagram}) => {
     return (
         <div className="container">
         <div className="card">
-            <img src={image} alt={name1}/>
+            <img src={image} alt={name}/>
             <div className="content">
-                <p className="name">{name1}</p>
+                <p className="name">{name}</p>
                 <p className="position">{position}</p><p className="variable">{variable}</p>
             </div>
             <div className="line"></div>
@@ -20,7 +20,7 @@ const Card = ({ name1, position, image, linkedin, github,instagram,variable}) =>
             <img src="/instagram.png" alt="" className="linkedin" />
             </a>
         </div>
-        </div>
+        </div>  
     )
 }
 export default Card;
