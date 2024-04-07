@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "./Card";
-
+import './Team.css'
 const BoardofExecutives = [
   {
     name: "Sarthak Rathore",
     position: "Member",
-    image: "./../assets/Sarthak.jpg",
+    image: "src/assets/Sarthak.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -14,7 +14,7 @@ const BoardofExecutives = [
   {
     name: "Vaishnavi Srivastava",
     position: "Member",
-    image: "./../assets/vaishnavi.jpg",
+    image: "src/assets/vaishnavi.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -23,7 +23,7 @@ const BoardofExecutives = [
   {
     name: "Rishika Bhalla",
     position: "Member",
-    image: "./../assets/RishikaImg.jpeg",
+    image: "src/assets/RishikaImg.jpeg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -32,7 +32,7 @@ const BoardofExecutives = [
   {
     name: "Aditya Pilani",
     position: "Member",
-    image: "./../assets/adityapilani.jpg",
+    image: "src/assets/adityapilani.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -41,7 +41,7 @@ const BoardofExecutives = [
   {
     name: "Bharat Anand",
     position: "Member",
-    image: "./../assets/bharat.jpeg",
+    image: "src/assets/bharat.jpeg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -50,7 +50,7 @@ const BoardofExecutives = [
   {
     name: "Rohit Gupta",
     position: "Member",
-    image: "./../assets/rohit.jpg",
+    image: "src/assets/rohit.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -59,7 +59,7 @@ const BoardofExecutives = [
   {
     name: "Chetany Bhardwaj",
     position: "Member",
-    image: "./../assets/chetany.jpg",
+    image: "src/assets/chetany.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -68,7 +68,7 @@ const BoardofExecutives = [
   {
     name: "Aadish Bansal",
     position: "Member",
-    image: "./../assets/adish.jpg",
+    image: "src/assets/adish.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -77,7 +77,7 @@ const BoardofExecutives = [
   {
     name: "Dhroov Sharma",
     position: "Member",
-    image: "./../assets/dhroov.jpg",
+    image: "src/assets/dhroov.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -86,7 +86,7 @@ const BoardofExecutives = [
   {
     name: "Ayush Pradhan",
     position: "Member",
-    image: "./../assets/ayush.jpg",
+    image: "src/assets/ayush.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -97,7 +97,7 @@ const OfficeBearers = [
   {
     name: "Mr.Pankaj Badoni",
     position: "Faculty Coordinator",
-    image: "./../assets/pankaj.jpg",
+    image: "src/assets/pankaj.jpg",
     variable: "",
     linkedin: "",
     github: "",
@@ -106,7 +106,7 @@ const OfficeBearers = [
   {
     name: "Utkarsh Rastogi",
     position: "Chairperson",
-    image: "./../assets/utkarsh.jpg",
+    image: "src/assets/utkarsh.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -115,7 +115,7 @@ const OfficeBearers = [
   {
     name: "Siddhant Kwatra",
     position: "Vice-Chairperson",
-    image: "./../assets/siddhant.jpg",
+    image: "src/assets/siddhant.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -124,7 +124,7 @@ const OfficeBearers = [
   {
     name: "Kavya Chugh",
     position: "Treasurer",
-    image: "./../assets/Kavya.jpeg",
+    image: "src/assets/Kavya.jpeg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -133,7 +133,7 @@ const OfficeBearers = [
   {
     name: "Sahil Bathla",
     position: "Secretary",
-    image: "./../assets/sahil.jpg",
+    image: "src/assets/sahil.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -142,7 +142,7 @@ const OfficeBearers = [
   {
     name: "Shradha Mudgil",
     position: "Joint Secretary",
-    image: "./../assets/shradha.jpg",
+    image: "src/assets/shradha.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -151,7 +151,7 @@ const OfficeBearers = [
   {
     name: "Md Arslan",
     position: "Technical Head",
-    image: "./../assets/arslan.jpg",
+    image: "src/assets/arslan.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -160,7 +160,7 @@ const OfficeBearers = [
   {
     name: "Aarohi Sharma",
     position: "Event Head",
-    image: "./../assets/aarohisharma.jpg",
+    image: "src/assets/aarohisharma.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -170,7 +170,7 @@ const OfficeBearers = [
   {
     name: "Lavanya Arora",
     position: "PR & Sponsorship Head",
-    image: "./../assets/lavanya.jpg",
+    image: "src/assets/lavanya.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -180,7 +180,7 @@ const OfficeBearers = [
   {
     name: "Gurmehr Singh Gulati",
     position: "Joint PR & Sponsorship Head",
-    image: "./../assets/gurmehr.jpg",
+    image: "src/assets/gurmehr.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -189,7 +189,7 @@ const OfficeBearers = [
   {
     name: "Aarohi Saxena",
     position: "Social Media Head",
-    image: "./../assets/aarohisaxena.jpg",
+    image: "src/assets/aarohisaxena.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -198,7 +198,7 @@ const OfficeBearers = [
   {
     name: "Diya Rana",
     position: "Editorial Head",
-    image: "./../assets/diya.jpg",
+    image: "src/assets/harvijay.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -207,7 +207,7 @@ const OfficeBearers = [
   {
     name: "Harvijay Singh Virk",
     position: "CSR Head",
-    image: "./../assets/harvijay.jpg",
+    image: "src/assets/harvijay.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -216,7 +216,7 @@ const OfficeBearers = [
   {
     name: "Rajdeep Singh Sidhu",
     position: "Logistics Head",
-    image: "./../assets/rajdeep.jpg",
+    image: "src/assets/rajdeep.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -225,7 +225,7 @@ const OfficeBearers = [
   {
     name: "Supragya Gandotra",
     position: "Design Head",
-    image: "./../assets/supragya.jpg",
+    image: "src/assets/supragya.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -234,7 +234,7 @@ const OfficeBearers = [
   {
     name: "Milan Singhal",
     position: "Joint Design Head",
-    image: "./../assets/milan.jpg",
+    image: "src/assets/milan.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -243,7 +243,7 @@ const OfficeBearers = [
   {
     name: "Anchit Das",
     position: "VFX Head",
-    image: "./../assets/anchit.jpg",
+    image: "src/assets/anchit.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
