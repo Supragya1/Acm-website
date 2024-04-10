@@ -13,8 +13,8 @@ const Card = ({ name, position, image,variable, linkedin, github,instagram}) => 
             setTimeout(() => inThrottle = false, limit);
           }
         }
-     }
-     useEffect(() => {
+    }
+    useEffect(() => {
         const card = cardRef.current;
         if (!card) return;
     
@@ -58,10 +58,10 @@ const Card = ({ name, position, image,variable, linkedin, github,instagram}) => 
           card.removeEventListener("mouseout", mouseOutHandler);
           card.removeEventListener("click", clickHandler);
         };
-     }, []); 
+    }, []); 
 
- return (
-    <div ref={cardRef} className="card">
+return (
+    <div ref={cardRef} className="card2">
         {
             <div className="container">
             <div className="overlay">
