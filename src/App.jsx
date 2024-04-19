@@ -10,6 +10,8 @@ import Initiatives from "./components/Initiatives";
 import About from "./components/About";
 import Card from "./components/Card";
 import Contact from './components/Contact';
+import Footer from "./components/Footer";
+import "./components/Footer.css"
 function App() {
   return (
     <>
@@ -25,6 +27,7 @@ function App() {
           <Route path="/Contact" element={<Contact/>}/>
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }
