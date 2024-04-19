@@ -9,7 +9,7 @@ import Gallery from "./components/Gallery";
 import Initiatives from "./components/Initiatives";
 import About from "./components/About";
 import Card from "./components/Card";
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 function App() {
   return (
     <>
@@ -22,7 +22,7 @@ function App() {
           <Route path="/Initiatives" element={<Initiatives />} />
           <Route path="/About" element={<About />} />
           <Route path="/Card" element={<Card />} />
-          {/* <Route path="/Contact" element={<Contact/>}/> */}
+          <Route path="/Contact" element={<Contact/>}/>
         </Routes>
       </div>
     </>

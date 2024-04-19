@@ -1,4 +1,4 @@
-import "./contact.scss";
+import "./Contact.scss";
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs, { send } from "@emailjs/browser";
@@ -32,8 +32,8 @@ const submitButton = e.target.querySelector("button");
 submitButton.disabled = true;
 
 emailjs
-    .sendForm("service_m58gt74", "template_x5ki67j", formRef.current, {
-    publicKey: "oqDLSXsjUYw98-Q8D",
+    .sendForm("service_82mb956", "template_t01ot2c", formRef.current, {
+    publicKey: "DS6KNvQIAIlQUQw8l",
     })
     .then(() => {
     setSuccess(true);
@@ -58,31 +58,31 @@ return (
 >
     <motion.div className="textContainer" variants={variants}>
     <motion.h1 variants={variants} whileHover={{ color: "orange" }}>
-        Let's learn together
+        Contact Us!
     </motion.h1>
     <motion.div
         className="item"
         variants={variants}
         whileHover={{ color: "orange" }}
     >
-        <h2>Mail</h2>
-        <span>amitssahu199@gmail.com</span>
+        <h2>Working Hours</h2>
+        <span>Monday - Friday: 09:30 AM - 05:30 PM</span>
     </motion.div>
     <motion.div
         className="item"
         variants={variants}
         whileHover={{ color: "orange" }}
     >
-        <h2>LinkedIn</h2>
-        <span>linkedin.com/in/amit-s-sahu/</span>
+        <h2>UPES Energy Acres Bidholi</h2>
+        <span>Dehradun-248007, Uttarakhand, India</span>
     </motion.div>
     <motion.div
         className="item"
         variants={variants}
         whileHover={{ color: "orange" }}
     >
-        <h2>Phone</h2>
-        <span>+91 9868619498</span>
+        <h2>Email Us</h2>
+        <span>info.upesacm@gmail.com</span>
     </motion.div>
     </motion.div>
     <div className="formContainer">
