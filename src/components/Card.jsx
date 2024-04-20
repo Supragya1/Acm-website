@@ -1,9 +1,11 @@
 import React, { useRef, useEffect } from 'react';
 import {useState} from "react";
+import Tilt from 'react-parallax-tilt'
 import './Card.css'
 const Card = ({ name, position, image,variable, linkedin, github,instagram}) => {
 return (
   <>
+    <Tilt>
     <div  className="card2">
             <div className="container2">
             <div className="overlay">
@@ -11,7 +13,7 @@ return (
                     <img src={image} alt={name} className="card__image"/>
                     <div className="content">
                         <p className="name">{name}</p>
-                        <p className="position">{position} {variable}</p>
+                        <pre className="position">{position}, {variable}</pre>
                     </div>
                     <div className="social">
                         <a href={linkedin} target="_blank">
@@ -28,6 +30,7 @@ return (
             </div> 
         </div>
         </div>
+        </Tilt>
     </>
 );
 };
