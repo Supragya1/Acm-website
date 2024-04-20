@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import './Team.css'
+import TextSpan from "./TextSpan";
 const BoardofExecutives = [
   {
     name: "Sarthak Rathore",
@@ -252,13 +253,22 @@ const OfficeBearers = [
 ];
 
 function Team() {
+  const sentence  = "Meet our team".split("");
+
   return (
     <>
       <div className="container">
         <div className="wrapper">
           <div className="heading">
-            <h1>Meet our team</h1>
-            <h2>XYZ</h2>
+           <h1>{sentence.map((letter,ind)=>{
+              return(
+                <TextSpan className ="bumpy" key={ind}>
+                {letter === " " ? "\u00A0" : letter}
+                </TextSpan>
+              )
+            })}
+            </h1>
+            {/* <h2>XYZ</h2> */}
           </div>
 
           <div className="card-container">
@@ -267,7 +277,14 @@ function Team() {
             <div className="wrapper-div">
               {BoardofExecutives.map((executive) => (
                 <Card
-                  name={executive.name}
+                name={executive.name.split("").map((letter,ind1)=>{
+                  return(
+                    <TextSpan className ="bumpy" key={ind1}>
+                    {letter === " " ? "\u00A0" : letter}
+                    </TextSpan>
+                  )
+                  })}
+                  // name={executive.name}
                   position={executive.position}
                   image={executive.image}
                   variable={executive.variable}
@@ -281,9 +298,16 @@ function Team() {
             <h2>Office Bearers</h2>
 
             <div className="wrapper-div">
-              {OfficeBearers.map((bearer) => (
+              {OfficeBearers.map((bearer,ind) => (
                 <Card
-                  name={bearer.name}
+                  name = {bearer.name.split("").map((letter,ind2)=>{
+                    return(
+                      <TextSpan className ="bumpy" key={ind2}>
+                      {letter === " " ? "\u00A0" : letter}
+                      </TextSpan>
+                    )
+                    })}
+                  // name={bearer.name}
                   position={bearer.position}
                   image={bearer.image}
                   variable={bearer.variable}
