@@ -47,7 +47,7 @@
                     <CustomLink to="/Initiatives">Our Initiatives</CustomLink>
                     <CustomLink to="/team">Team</CustomLink>
                     <CustomLink to="/Contact">Contact</CustomLink>
-                    <CustomLink to="/Card">Card</CustomLink>
+                    {/* <CustomLink to="/Card">Card</CustomLink> */}
                 </ul>
                 {/* <CustomLink to="https://www.upesacmw.org/index.html"className="ACMW">Visit Upes ACM-W</CustomLink> */}
             </nav>

@@ -2,7 +2,9 @@ import { useState } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import "./components/Navbar.css";
+import "./components/Footer.css"
 import Home from "./components/Home";
 import Team from "./components/Team";
 import Gallery from "./components/Gallery";
@@ -10,8 +12,7 @@ import Initiatives from "./components/Initiatives";
 import About from "./components/About";
 import Card from "./components/Card";
 import Contact from './components/Contact';
-import Footer from "./components/Footer";
-import "./components/Footer.css"
+import Committee from "./components/Committee";
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Card" element={<Card />} />
           <Route path="/Contact" element={<Contact/>}/>
+          <Route path="/Committee" element={<Committee/>}/>
         </Routes>
       </div>
       <Footer />
