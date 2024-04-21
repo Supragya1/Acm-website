@@ -1,3 +1,9 @@
 export default function Home(){
-    return <h1>Home</h1>
+    return (
+    <>
+    <div classNam="cc"style={{height:"50rem"}}>
+    <h1>Home</h1>
+    </div>
+    </>
+    )
 }

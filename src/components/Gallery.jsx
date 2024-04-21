@@ -1,3 +1,9 @@
 export default function Gallery(){
-    return <h1>Gallery</h1>
+    return (
+        <>
+        <div classNam="cc"style={{height:"50rem"}}>
+        <h1>Gallery</h1>
+        </div>
+        </>
+        )
 }
