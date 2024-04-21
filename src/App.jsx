@@ -5,14 +5,14 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./components/Navbar.css";
 import "./components/Footer.css"
-import Home from "./components/Home";
-import Team from "./components/Team";
-import Gallery from "./components/Gallery";
-import Initiatives from "./components/Initiatives";
-import About from "./components/About";
-import Card from "./components/Card";
-import Contact from './components/Contact';
-// import Committee from "./components/Committee";
+import Home from "./components/Home/Home";
+import Team from "./components/Team/Team";
+import Gallery from "./components/Gallery/Gallery";
+import Initiatives from "./components/Initiative/Initiatives";
+import About from "./components/About/About";
+import Card from "./components/Team/Card";
+import Contact from './components/Contact/Contact';
+// import Committee from "./components/Committee/Committee";
 function App() {
   return (
     <>
