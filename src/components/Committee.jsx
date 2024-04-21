@@ -26,31 +26,31 @@ export default function Committee() {
               style={{ "--i": 1 }}
               data-id="content1"
             >
-              <img src="./../technicalteam.png" alt="Technical" />
+              <img src="src/assets/Committees/Technical.png" alt="Technical" />
             </div>
             <div className="imgBx" style={{ "--i": 2 }} data-id="content2">
-              <img src="./../eventsandworkshop.png" alt="Events" />
+              <img src="src/assets/Committees/Events.png" alt="Events" />
             </div>
             <div className="imgBx" style={{ "--i": 3 }} data-id="content3">
               <img
-                src="./../prmembershipandsponsorhip.png"
+                src="src/assets/Committees/Pr.png"
                 alt="PR & Sponsorship"
               />
             </div>
             <div className="imgBx" style={{ "--i": 4 }} data-id="content4">
-              <img src="./../Editorial.png" alt="Editorial" />
+              <img src="src/assets/Committees/Editorial.png" alt="Editorial" />
             </div>
             <div className="imgBx" style={{ "--i": 5 }} data-id="content5">
-              <img src="./../web-design.png" alt="Design & VFX" />
+              <img src="src/assets/Committees/Design.png" alt="Design & VFX" />
             </div>
             <div className="imgBx" style={{ "--i": 6 }} data-id="content6">
-              <img src="./../CSR31.png" alt="CSR" />
+              <img src="src/assets/Committees/CSR.png" alt="CSR" />
             </div>
             <div className="imgBx" style={{ "--i": 7 }} data-id="content7">
-              <img src="./../social-media.png" alt="Social Media" />
+              <img src="src/assets/Committees/Social.png" alt="Social Media" />
             </div>
             <div className="imgBx" style={{ "--i": 8 }} data-id="content8">
-              <img src="./../cargo.png" alt="Logistics" />
+              <img src="src/assets/Committees/Logistic.png" alt="Logistics" />
             </div>
           </div>
           <div className="content">

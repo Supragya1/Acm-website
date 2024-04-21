@@ -12,7 +12,7 @@ import Initiatives from "./components/Initiatives";
 import About from "./components/About";
 import Card from "./components/Card";
 import Contact from './components/Contact';
-// import Committee from "./components/Committee/Committee";
+// import Committee from "./components/Committee";
 function App() {
   return (
     <>
@@ -26,7 +26,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Card" element={<Card />} />
           <Route path="/Contact" element={<Contact/>}/>
-          {/* <Route path="/Committee/Committee" element={<Committee/>}/> */}
+          {/* <Route path="/Committee" element={<Committee/>}/> */}
         </Routes>
       </div>
       <Footer />
